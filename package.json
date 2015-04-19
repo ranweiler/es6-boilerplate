@@ -1,0 +1,36 @@
+{
+  "name": "es6-boilerplate",
+  "version": "1.0.0",
+  "description": "ES6 frontend project boilerplate",
+  "main": "src/index.js",
+  "scripts": {
+    "check": "./scripts/check",
+    "clean": "./scripts/clean",
+    "dist": "./scripts/dist",
+    "lint": "./scripts/lint",
+    "test": "./scripts/test"
+  },
+  "author": "Joe Ranweiler",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.0.8",
+    "babel-eslint": "^3.0.1",
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.8",
+    "chai": "^2.2.0",
+    "eslint": "^0.18.0",
+    "karma": "^0.12.31",
+    "karma-babel-preprocessor": "^5.0.1",
+    "karma-chai-sinon": "^0.1.4",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-cli": "0.0.4",
+    "karma-commonjs": "0.0.13",
+    "karma-mocha": "^0.1.10",
+    "mocha": "^2.2.1",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "dependencies": {
+    "karma-browserify": "^4.1.2"
+  }
+}
