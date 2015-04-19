@@ -21,6 +21,7 @@
     "eslint": "^0.18.0",
     "karma": "^0.12.31",
     "karma-babel-preprocessor": "^5.0.1",
+    "karma-browserify": "^4.1.2",
     "karma-chai-sinon": "^0.1.4",
     "karma-chrome-launcher": "^0.1.7",
     "karma-cli": "0.0.4",
@@ -31,6 +32,5 @@
     "sinon-chai": "^2.7.0"
   },
   "dependencies": {
-    "karma-browserify": "^4.1.2"
   }
 }
